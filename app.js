@@ -31,3 +31,8 @@ function sortearAmigo() {// Esta funcion elige un solo objeto aleatoriamente de 
     const amigoAleatorio = amigos[Math.floor(Math.random() * amigos.length)];
     lista.innerHTML = `<li>Amigo seleccionado: ${amigoAleatorio}</li>`;   
 };
+function limpiarLista() {// Esta funcion limpia la lista de amigos y el dom
+    amigos = []; // Reiniciamos el array de amigos
+    const lista = document.getElementById("listaAmigos"); // Obtenemos el elemento de la lista del DOM
+    lista.innerHTML = ''; // Limpiamos la lista en el DOM
+};
