@@ -1,12 +1,13 @@
-# 🎁 Amigo Secreto
+
+# Amigo Secreto
 
 Una aplicación web interactiva para organizar el sorteo de amigos secretos de manera divertida y fácil.
 
-## 📋 Descripción
+## Descripción
 
 Amigo Secreto es una aplicación web que permite a los usuarios agregar nombres de participantes y realizar un sorteo aleatorio para asignar amigos secretos. La aplicación cuenta con una interfaz moderna y responsiva que hace del proceso de sorteo una experiencia agradable.
 
-## ✨ Características
+## Características
 
 - **Interfaz intuitiva**: Diseño moderno y fácil de usar
 - **Agregar participantes**: Añade nombres de amigos de forma dinámica
@@ -16,7 +17,7 @@ Amigo Secreto es una aplicación web que permite a los usuarios agregar nombres 
 - **Animaciones**: Efectos visuales suaves y atractivos
 
 
-## 🚀 Instalación y Ejecución
+## Instalación y Ejecución
 
 Sigue estos pasos para clonar y ejecutar la aplicación, incluso si nunca has usado Git o servidores locales:
 
@@ -62,7 +63,7 @@ Sigue estos pasos para clonar y ejecutar la aplicación, incluso si nunca has us
 > **¿No tienes experiencia?**
 > Solo necesitas descargar el proyecto y abrir `index.html` con doble clic. Para desarrollo, usa Python o Node.js como se indica arriba.
 
-## 📖 Uso
+## Uso
 
 1. **Agregar participantes:**
    - Escribe el nombre de un amigo en el campo de texto
@@ -77,7 +78,7 @@ Sigue estos pasos para clonar y ejecutar la aplicación, incluso si nunca has us
 3. **Reiniciar:**
    - Recarga la página para comenzar un nuevo sorteo
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **HTML5**: Estructura semántica y accesible
 - **CSS3**: Estilos modernos con variables CSS y Flexbox
@@ -85,7 +86,7 @@ Sigue estos pasos para clonar y ejecutar la aplicación, incluso si nunca has us
 - **Google Fonts**: Tipografías Inter y Merriweather
 - **Diseño responsivo**: Adaptable a diferentes tamaños de pantalla
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 ChallengeAmigoSecreto/
@@ -98,21 +99,21 @@ ChallengeAmigoSecreto/
 └── README.md           # Este archivo
 ```
 
-## 🎨 Características del Diseño
+## Características del Diseño
 
 - **Paleta de colores**: Azul primario (#4B69FD) con acentos naranjas
 - **Tipografías**: Inter para texto general, Merriweather para títulos
 - **Layout**: Diseño en flexbox con secciones bien definidas
 - **Efectos visuales**: Sombras y hover effects para mejor UX
 
-## 🔧 Funcionalidades Técnicas
+## Funcionalidades Técnicas
 
 - **Validación de entrada**: Verifica que se ingresen nombres válidos
 - **Prevención de duplicados**: Evita nombres repetidos en la lista
 - **Sorteo aleatorio**: Algoritmo que garantiza asignaciones únicas
 - **Manejo de errores**: Validaciones para casos edge
 
-## 🤝 Contribuir
+## Contribuir
 
 1. Haz un fork del proyecto
 2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
@@ -120,15 +121,15 @@ ChallengeAmigoSecreto/
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📝 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## 👨‍💻 Autor
+## Autor
 
 **extefano** - [GitHub](https://github.com/extefano)
 
-## 🙏 Agradecimientos
+## Agradecimientos
 
 - Inspirado en la tradición del amigo secreto
 - Diseño inspirado en aplicaciones modernas de sorteo
@@ -136,4 +137,3 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ---
 
-⭐ Si te gustó este proyecto, ¡dale una estrella en GitHub!
