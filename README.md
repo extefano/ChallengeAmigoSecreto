@@ -15,26 +15,52 @@ Amigo Secreto es una aplicación web que permite a los usuarios agregar nombres 
 - **Accesibilidad**: Incluye atributos ARIA para mejor accesibilidad
 - **Animaciones**: Efectos visuales suaves y atractivos
 
-## 🚀 Instalación
 
-1. **Clona el repositorio:**
+## 🚀 Instalación y Ejecución
+
+Sigue estos pasos para clonar y ejecutar la aplicación, incluso si nunca has usado Git o servidores locales:
+
+### 1. Clonar el repositorio
+
+1. Haz clic en el botón verde "Code" en [GitHub](https://github.com/extefano/ChallengeAmigoSecreto) y copia la URL.
+2. Abre una terminal (o PowerShell en Windows) y ejecuta:
    ```bash
    git clone https://github.com/extefano/ChallengeAmigoSecreto.git
    cd ChallengeAmigoSecreto
    ```
+   > Si no tienes Git instalado, descárgalo desde [git-scm.com](https://git-scm.com/) e instálalo.
 
-2. **Abre el proyecto:**
-   - Abre el archivo `index.html` en tu navegador web
-   - O usa un servidor local para desarrollo
+### 2. Ejecutar la aplicación
 
-3. **Para desarrollo local (opcional):**
+#### Opción A: Abrir directamente
+
+1. Abre la carpeta descargada.
+2. Haz doble clic en `index.html` para abrir la app en tu navegador.
+   - ¡Listo! Puedes usar la aplicación sin instalar nada más.
+
+#### Opción B: Usar un servidor local (recomendado para evitar problemas de rutas)
+
+**Con Python:**
+1. Instala Python desde [python.org](https://www.python.org/) si no lo tienes.
+2. Abre una terminal en la carpeta del proyecto y ejecuta:
    ```bash
-   # Si tienes Python instalado
    python -m http.server 8000
-   
-   # Si tienes Node.js instalado
-   npx serve .
    ```
+3. Abre [http://localhost:8000](http://localhost:8000) en tu navegador.
+
+**Con Node.js:**
+1. Instala Node.js desde [nodejs.org](https://nodejs.org/) si no lo tienes.
+2. Instala el paquete `serve`:
+   ```bash
+   npm install -g serve
+   serve .
+   ```
+3. Abre el enlace que aparece en la terminal (por ejemplo, [http://localhost:5000](http://localhost:5000)).
+
+---
+
+> **¿No tienes experiencia?**
+> Solo necesitas descargar el proyecto y abrir `index.html` con doble clic. Para desarrollo, usa Python o Node.js como se indica arriba.
 
 ## 📖 Uso
 
